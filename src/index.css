@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  margin-bottom: 4rem;
+}
+
+.register, .message{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem
+}
+
+button{
+  background: none;
+  border: 1px solid gray;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem
+}
